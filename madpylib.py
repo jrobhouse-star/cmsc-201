@@ -1,0 +1,6 @@
+name = input("Hello, what is your name? ")
+subject = input("Give me a subject: ")
+adjective = input("give me an adjective: ")
+verb = input("Give me a verb: ")
+noun = input("Give me a noun: ")
+print("Hello " + name + ", we are going to have an amazing semester learning " + subject + ", it's going to be " + adjective + " so don't worry if you need to " + verb + " from a " + noun + ".")
