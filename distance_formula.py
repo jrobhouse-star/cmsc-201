@@ -3,4 +3,4 @@ y1 = float(input())
 x2 = float(input())
 y2 = float(input())
 distance = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-print(f"The distance between ({y1}, {y2}) and ({x1}, {x2}) is {distance}")
+print(f"The distance between ({x1}, {y1}) and ({x2}, {y2}) is {distance}")
