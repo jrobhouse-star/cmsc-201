@@ -7,7 +7,7 @@ else:
         digit = int(key[i])
     if digit % 2 != 0:
         is_valid = False
-if is_valid:
-    print("Welcome! Booting the system!")
-else:
-    print("Invalid key! The authorities have been notified.")
+    if is_valid:
+        print("Welcome! Booting the system!")
+    else:
+        print("Invalid key! The authorities have been notified.")
